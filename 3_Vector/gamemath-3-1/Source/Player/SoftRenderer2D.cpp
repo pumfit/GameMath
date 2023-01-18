@@ -7,6 +7,7 @@ using namespace CK::DD;
 // 격자를 그리는 함수
 void SoftRenderer::DrawGizmo2D()
 {
+	//Test
 	auto& r = GetRenderer();
 	const auto& g = Get2DGameEngine();
 
