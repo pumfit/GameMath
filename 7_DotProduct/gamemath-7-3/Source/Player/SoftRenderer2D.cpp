@@ -128,6 +128,7 @@ void SoftRenderer::Render2D()
 
 	// 1. 투영할 라인 그리기
 	r.DrawLine(lineStart, lineEnd, LinearColor::Black);
+	r.DrawLine(lineStart, point, LinearColor::Red);
 
 	// 2. 투영된 위치와 거리 계산
 	Vector2 unitV = (lineEnd - lineStart).GetNormalize(); // 단위 벡터
